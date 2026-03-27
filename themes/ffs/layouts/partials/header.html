@@ -1,25 +1,26 @@
 <header class="site-header">
   <div class="header-container">
     <div class="logo-section">
-      <a href="{{ .Site.BaseURL }}" class="logo">
-        <img src="{{ .Site.BaseURL }}images/logo.png" alt="{{ .Site.Params.business_name }}">
+      <a href="/" class="logo">
+        <img src="/images/logo.png" alt="{{ .Site.Params.business_name }}">
       </a>
     </div>
 
     <nav class="main-nav" id="main-nav">
       <ul class="nav-list">
-        <li><a href="{{ .Site.BaseURL }}" class="nav-link">Home</a></li>
-        <li><a href="{{ .Site.BaseURL }}about" class="nav-link">About</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
         <li class="nav-item-dropdown">
-          <a href="{{ .Site.BaseURL }}services" class="nav-link">Services</a>
+          <a href="/services" class="nav-link">Services</a>
           <ul class="nav-dropdown">
-            <li><a href="{{ .Site.BaseURL }}services/screens/">Screen Enclosures & Repairs</a></li>
-            <li><a href="{{ .Site.BaseURL }}services/enclosures/">Aluminum Enclosures & Structures</a></li>
-            <li><a href="{{ .Site.BaseURL }}services/fencing/">Fencing & Exterior</a></li>
-            <li><a href="{{ .Site.BaseURL }}services/custom/">Custom Projects</a></li>
+            <li><a href="/services/screen-enclosures/">Screen Enclosures</a></li>
+            <li><a href="/services/pool-screen-enclosures/">Pool Enclosures</a></li>
+            <li><a href="/services/vinyl-fencing/">Fencing</a></li>
+            <li><a href="/services/hurricane-shutters/">Hurricane Shutters</a></li>
+            <li><a href="/services/">All Services →</a></li>
           </ul>
         </li>
-        <li><a href="{{ .Site.BaseURL }}contact" class="nav-link">Contact</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
       </ul>
     </nav>
 
@@ -27,7 +28,7 @@
       <a href="tel:{{ .Site.Params.phone_link }}" class="phone-link">
         {{ .Site.Params.phone }}
       </a>
-      <a href="{{ .Site.BaseURL }}contact" class="btn-primary">Get Free Estimate</a>
+      <a href="/contact" class="btn-primary">Get Free Estimate</a>
     </div>
 
     <button class="mobile-menu-toggle" id="mobile-menu-toggle">

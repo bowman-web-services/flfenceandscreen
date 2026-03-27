@@ -15,29 +15,39 @@
     <div class="content-container">
       <!-- Screen Enclosures & Repairs -->
       <div class="service-category-section">
-        <h2 class="category-heading category-screens">Screen Enclosures & Repairs</h2>
+        <h2 class="category-heading category-screens">Screens, Repairs & Add-ons</h2>
         <div class="service-cards-grid">
-          {{ range where .Site.RegularPages "Params.category" "Screen Enclosures & Repairs" }}
+          {{ range where (where .Site.RegularPages "Section" "services") "Params.category" "screens" }}
             {{ partial "service-card.html" . }}
           {{ end }}
         </div>
       </div>
 
-      <!-- Aluminum Enclosures & Structures -->
+      <!-- Enclosures & Outdoor Structures -->
       <div class="service-category-section">
-        <h2 class="category-heading category-enclosures">Aluminum Enclosures & Structures</h2>
+        <h2 class="category-heading category-enclosures">Enclosures & Outdoor Structures</h2>
         <div class="service-cards-grid">
-          {{ range where .Site.RegularPages "Params.category" "Aluminum Enclosures & Structures" }}
+          {{ range where (where .Site.RegularPages "Section" "services") "Params.category" "enclosures" }}
             {{ partial "service-card.html" . }}
           {{ end }}
         </div>
       </div>
 
-      <!-- Fencing & Exterior -->
+      <!-- Fencing -->
       <div class="service-category-section">
-        <h2 class="category-heading category-fencing">Fencing & Exterior</h2>
+        <h2 class="category-heading category-fencing">Fencing</h2>
         <div class="service-cards-grid">
-          {{ range where .Site.RegularPages "Params.category" "Fencing & Exterior" }}
+          {{ range where (where .Site.RegularPages "Section" "services") "Params.category" "fencing" }}
+            {{ partial "service-card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Exterior Work -->
+      <div class="service-category-section">
+        <h2 class="category-heading category-fencing">Exterior Work</h2>
+        <div class="service-cards-grid">
+          {{ range where (where .Site.RegularPages "Section" "services") "Params.category" "exterior" }}
             {{ partial "service-card.html" . }}
           {{ end }}
         </div>

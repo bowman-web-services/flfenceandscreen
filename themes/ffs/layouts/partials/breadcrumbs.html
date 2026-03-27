@@ -1,8 +1,8 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <ol class="breadcrumb-list">
-    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+    <li><a href="/">Home</a></li>
     {{ if eq .Type "services" }}
-      <li><a href="{{ .Site.BaseURL }}services">Services</a></li>
+      <li><a href="/services">Services</a></li>
       {{ if .Params.category }}
         <li><span>{{ .Params.category }}</span></li>
       {{ end }}
@@ -24,14 +24,14 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "{{ .Site.BaseURL }}"
+      "item": "/"
     }
     {{ if eq .Type "services" }}
       ,{
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "{{ .Site.BaseURL }}services"
+        "item": "/services"
       }
       {{ if .Params.category }}
         ,{
