@@ -1,0 +1,18 @@
+{{ $service := . }}
+<article class="service-card" data-category="{{ $service.Params.category }}">
+  <div class="service-card-inner">
+    {{ if $service.Params.image }}
+      <div class="service-card-image">
+        <img src="{{ $service.Params.image }}" alt="{{ $service.Title }}">
+      </div>
+    {{ end }}
+    <div class="service-card-content">
+      {{ if $service.Params.category }}
+        <span class="service-badge category-{{ $service.Params.category | lower }}">{{ $service.Params.category }}</span>
+      {{ end }}
+      <h3 class="service-card-title">{{ $service.Title }}</h3>
+      <p class="service-card-description">{{ $service.Summary | plainify }}</p>
+      <a href="{{ $service.Permalink }}" class="service-card-link">Learn More →</a>
+    </div>
+  </div>
+</article>

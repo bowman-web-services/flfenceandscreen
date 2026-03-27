@@ -1,0 +1,12 @@
+name = "FL Fence & Screen"
+license = "MIT"
+licenselink = "https://github.com/yourrepo/license"
+description = "Professional business theme for FL Fence & Screen"
+homepage = "https://github.com/yourrepo"
+tags = ["business", "responsive", "construction"]
+features = ["responsive", "search"]
+min_version = "0.87.0"
+
+[author]
+name = "Bowman Web Services"
+homepage = "https://bowmanwebservices.com"

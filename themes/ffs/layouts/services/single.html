@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="service-single">
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- Service Header with Color Bar -->
+  <div class="service-header" data-category="{{ .Params.category | lower }}">
+    <div class="content-container">
+      <h1 class="service-title">{{ .Title }}</h1>
+      {{ if .Params.description }}
+        <p class="service-description">{{ .Params.description }}</p>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Service Image (if exists) -->
+  {{ if .Params.image }}
+    <div class="service-image-section">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="service-image">
+    </div>
+  {{ end }}
+
+  <!-- Main Content -->
+  <article class="service-content">
+    <div class="content-container">
+      <div class="service-body">
+        {{ .Content }}
+      </div>
+
+      <!-- Sidebar or Related Services -->
+      {{ if .Params.related_services }}
+        <aside class="service-sidebar">
+          <h3>Related Services</h3>
+          <ul class="related-services-list">
+            {{ range .Params.related_services }}
+              <li><a href="{{ . }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </aside>
+      {{ end }}
+    </div>
+  </article>
+
+  <!-- FAQ Section -->
+  {{ if .Params.faq }}
+    <section class="service-faq">
+      <div class="content-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          {{ range .Params.faq }}
+            <div class="faq-item">
+              <h4 class="faq-question">{{ .question }}</h4>
+              <p class="faq-answer">{{ .answer }}</p>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  <!-- CTA Banner -->
+  {{ partial "cta-banner.html" . }}
+</div>
+{{ end }}

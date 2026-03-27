@@ -1,0 +1,137 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Premium Fencing & Screen Enclosures</h1>
+    <p class="hero-subtitle">{{ .Site.Params.tagline }}</p>
+    <div class="hero-cta">
+      <a href="{{ .Site.BaseURL }}contact" class="btn-primary">Get Free Estimate</a>
+      <a href="#services" class="btn-secondary">View Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- Service Categories -->
+<section id="services" class="service-categories">
+  <div class="content-container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="service-categories-grid">
+      <a href="{{ .Site.BaseURL }}services/screens/" class="service-category-card category-screens">
+        <h3>Screen Enclosures & Repairs</h3>
+        <p>Expert screen room installation, repairs, and maintenance for year-round outdoor living.</p>
+        <span class="icon">→</span>
+      </a>
+      <a href="{{ .Site.BaseURL }}services/enclosures/" class="service-category-card category-enclosures">
+        <h3>Aluminum Enclosures & Structures</h3>
+        <p>Durable aluminum structures built to withstand Florida's weather and provide years of beauty.</p>
+        <span class="icon">→</span>
+      </a>
+      <a href="{{ .Site.BaseURL }}services/fencing/" class="service-category-card category-fencing">
+        <h3>Fencing & Exterior</h3>
+        <p>Professional fence installation and exterior improvements to enhance your property value.</p>
+        <span class="icon">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <div class="content-container">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-body">
+          <p class="testimonial-text">"Professional, courteous, and did excellent work. I couldn't be happier with my new screen room. Highly recommended!"</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Diane R.</strong>
+          <span class="testimonial-location">South Daytona, FL</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-body">
+          <p class="testimonial-text">"They came on time, worked efficiently, and left everything clean. The quality of the fencing is outstanding. Five stars!"</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Jennifer L.</strong>
+          <span class="testimonial-location">Port Orange, FL</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-body">
+          <p class="testimonial-text">"Best decision we made for our home. The aluminum enclosure is beautiful and adds so much value to our property."</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Mark T.</strong>
+          <span class="testimonial-location">Ormond Beach, FL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-choose-us">
+  <div class="content-container">
+    <h2 class="section-title">Why Choose FL Fence & Screen?</h2>
+    <div class="reasons-grid">
+      <div class="reason-card">
+        <div class="reason-icon">✓</div>
+        <h3>Licensed & Insured</h3>
+        <p>Fully licensed and insured for your peace of mind and protection.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">✓</div>
+        <h3>Locally Owned</h3>
+        <p>50+ years combined experience serving Volusia & Flagler Counties.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">✓</div>
+        <h3>Fast Turnaround</h3>
+        <p>Efficient service without compromising on quality or craftsmanship.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">✓</div>
+        <h3>Hurricane-Rated Materials</h3>
+        <p>Built to withstand Florida's weather with durable, proven materials.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Area -->
+<section class="service-area">
+  <div class="content-container">
+    <h2 class="section-title">Service Area</h2>
+    <p class="section-description">Proudly serving Volusia & Flagler Counties, including:</p>
+    <div class="area-list">
+      <div class="area-column">
+        <ul>
+          <li>Daytona Beach</li>
+          <li>Port Orange</li>
+          <li>Ormond Beach</li>
+          <li>New Smyrna Beach</li>
+          <li>DeLand</li>
+          <li>Deltona</li>
+        </ul>
+      </div>
+      <div class="area-column">
+        <ul>
+          <li>Palm Coast</li>
+          <li>Edgewater</li>
+          <li>Holly Hill</li>
+          <li>South Daytona</li>
+          <li>DeBary</li>
+          <li>Orange City</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+{{ partial "cta-banner.html" . }}
+{{ end }}

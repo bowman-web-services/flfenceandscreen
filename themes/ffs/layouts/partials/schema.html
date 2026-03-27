@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ .Site.Params.business_name }}",
+  "legalName": "{{ .Site.Params.legal_name }}",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}",
+  "telephone": "{{ .Site.Params.phone_link }}",
+  "email": "{{ .Site.Params.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "831 Railroad Street",
+    "addressLocality": "Port Orange",
+    "addressRegion": "FL",
+    "postalCode": "32129",
+    "addressCountry": "US"
+  },
+  "image": "{{ .Site.BaseURL }}images/logo.png",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    "Daytona Beach", "Port Orange", "Ormond Beach", "New Smyrna Beach",
+    "DeLand", "Deltona", "Palm Coast", "Edgewater", "Holly Hill",
+    "South Daytona", "DeBary", "Orange City", "Ponce Inlet"
+  ],
+  "priceRange": "$$",
+  "serviceType": ["Fence Installation", "Screen Enclosures", "Outdoor Structures"]
+}
+</script>

@@ -1,0 +1,38 @@
+baseURL = "https://flfenceandscreen.com/"
+languageCode = "en-us"
+title = "FL Fence & Screen | Volusia County Fence & Screen Contractors"
+theme = "ffs"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[params]
+business_name = "FL Fence & Screen"
+legal_name = "Florida Fence & Screen LLC"
+tagline = "Where Pride Makes a Difference"
+phone = "(386) 286-3262"
+phone_link = "+13862863262"
+address = "831 Railroad Street, Port Orange, FL 32129"
+email = "contact@flfenceandscreen.com"
+hours = "Mon-Fri 8:00 AM - 5:00 PM"
+experience = "50+ years combined"
+service_area = "Volusia & Flagler Counties"
+google_analytics = "G-XXXXXXXXXX"
+google_tag_manager = "GTM-XXXXXXX"
+description = "FL Fence & Screen provides professional fence installation, screen enclosures, and outdoor structures in Volusia & Flagler Counties, FL. Licensed & insured with 50+ years combined experience."
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+
+[taxonomies]
+category = "categories"
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

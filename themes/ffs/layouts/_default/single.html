@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="page-single">
+  {{ partial "breadcrumbs.html" . }}
+
+  <article class="page-content">
+    <div class="content-container">
+      <h1>{{ .Title }}</h1>
+      <div class="article-body">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+
+  {{ partial "cta-banner.html" . }}
+</div>
+{{ end }}

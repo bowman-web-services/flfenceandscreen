@@ -1,0 +1,47 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+    {{ if eq .Type "services" }}
+      <li><a href="{{ .Site.BaseURL }}services">Services</a></li>
+      {{ if .Params.category }}
+        <li><span>{{ .Params.category }}</span></li>
+      {{ end }}
+      <li><span>{{ .Title }}</span></li>
+    {{ else if .IsPage }}
+      <li><span>{{ .Title }}</span></li>
+    {{ else if eq .Type "page" }}
+      <li><span>{{ .Title }}</span></li>
+    {{ end }}
+  </ol>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ .Site.BaseURL }}"
+    }
+    {{ if eq .Type "services" }}
+      ,{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "{{ .Site.BaseURL }}services"
+      }
+      {{ if .Params.category }}
+        ,{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ .Params.category }}",
+          "item": "{{ .Permalink }}"
+        }
+      {{ end }}
+    {{ end }}
+  ]
+}
+</script>

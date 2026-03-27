@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="page-list">
+  {{ partial "breadcrumbs.html" . }}
+
+  <div class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}
+      <p class="list-description">{{ .Params.description }}</p>
+    {{ end }}
+  </div>
+
+  <div class="content-container">
+    {{ if .Content }}
+      <div class="list-intro">
+        {{ .Content }}
+      </div>
+    {{ end }}
+
+    {{ if .Pages }}
+      <div class="page-list-grid">
+        {{ range .Pages }}
+          <div class="list-item">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary | plainify }}</p>
+            <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

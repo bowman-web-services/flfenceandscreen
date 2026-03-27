@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="page-single">
+  {{ partial "breadcrumbs.html" . }}
+
+  <article class="page-content">
+    <div class="content-container">
+      <h1>{{ .Title }}</h1>
+      <div class="article-body">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+
+  <!-- Show CTA banner for all pages except legal pages -->
+  {{ if not (in (slice "privacy" "terms" "cookies") .File.BaseFileName) }}
+    {{ partial "cta-banner.html" . }}
+  {{ end }}
+</div>
+{{ end }}

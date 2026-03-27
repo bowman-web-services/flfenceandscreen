@@ -1,0 +1,90 @@
+{{ define "main" }}
+<div class="services-list">
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- Hero Section -->
+  <section class="services-hero">
+    <div class="content-container">
+      <h1>Our Services</h1>
+      <p>Professional fence, screen enclosure, and outdoor structure services throughout Volusia & Flagler Counties.</p>
+    </div>
+  </section>
+
+  <!-- Services by Category -->
+  <div class="services-by-category">
+    <div class="content-container">
+      <!-- Screen Enclosures & Repairs -->
+      <div class="service-category-section">
+        <h2 class="category-heading category-screens">Screen Enclosures & Repairs</h2>
+        <div class="service-cards-grid">
+          {{ range where .Site.RegularPages "Params.category" "Screen Enclosures & Repairs" }}
+            {{ partial "service-card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Aluminum Enclosures & Structures -->
+      <div class="service-category-section">
+        <h2 class="category-heading category-enclosures">Aluminum Enclosures & Structures</h2>
+        <div class="service-cards-grid">
+          {{ range where .Site.RegularPages "Params.category" "Aluminum Enclosures & Structures" }}
+            {{ partial "service-card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Fencing & Exterior -->
+      <div class="service-category-section">
+        <h2 class="category-heading category-fencing">Fencing & Exterior</h2>
+        <div class="service-cards-grid">
+          {{ range where .Site.RegularPages "Params.category" "Fencing & Exterior" }}
+            {{ partial "service-card.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Process Section -->
+  <section class="service-process">
+    <div class="content-container">
+      <h2 class="section-title">Our 6-Step Process</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <h3>Free Consultation</h3>
+          <p>Contact us to discuss your project and vision.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <h3>On-Site Assessment</h3>
+          <p>We visit your property to understand the scope.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <h3>Custom Quote</h3>
+          <p>Receive a detailed, no-obligation estimate.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">4</div>
+          <h3>Schedule Installation</h3>
+          <p>Pick a convenient time for your project.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">5</div>
+          <h3>Professional Installation</h3>
+          <p>Expert craftsmen bring your project to life.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">6</div>
+          <h3>Final Walkthrough</h3>
+          <p>Inspect and approve your completed project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  {{ partial "cta-banner.html" . }}
+</div>
+{{ end }}
