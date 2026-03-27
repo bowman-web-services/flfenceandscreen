@@ -4,7 +4,6 @@ description: "Custom entryway enclosures for Port Orange & Daytona Beach. Screen
 slug: "entryway-enclosures"
 type: "services"
 category: "screens"
-image: "/images/services/entryway-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

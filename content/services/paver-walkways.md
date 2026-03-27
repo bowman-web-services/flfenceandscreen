@@ -4,7 +4,6 @@ description: "Custom paver walkways for Daytona Beach & Port Orange. Permeable, 
 slug: "paver-walkways"
 type: "services"
 category: "exterior"
-image: "/images/services/paver-walkways.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

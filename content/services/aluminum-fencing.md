@@ -4,7 +4,6 @@ description: "Aluminum fence installation for Daytona Beach & Port Orange. Durab
 slug: "aluminum-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/aluminum-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

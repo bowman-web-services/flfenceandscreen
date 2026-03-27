@@ -4,7 +4,6 @@ description: "Custom sunroom construction for Daytona Beach & Port Orange. Year-
 slug: "sunrooms"
 type: "services"
 category: "enclosures"
-image: "/images/services/sunrooms.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

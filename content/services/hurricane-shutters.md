@@ -4,7 +4,6 @@ description: "Hurricane shutters & storm protection for Daytona Beach & Port Ora
 slug: "hurricane-shutters"
 type: "services"
 category: "screens"
-image: "/images/services/hurricane-shutters.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

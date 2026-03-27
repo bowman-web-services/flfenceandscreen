@@ -4,7 +4,6 @@ description: "Custom screen enclosures for Daytona Beach & Port Orange. Bug-free
 slug: "screen-enclosures"
 type: "services"
 category: "enclosures"
-image: "/images/services/screen-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

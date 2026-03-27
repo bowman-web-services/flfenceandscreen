@@ -4,7 +4,6 @@ description: "Custom pergolas & shade structures for Port Orange & Daytona Beach
 slug: "pergolas"
 type: "services"
 category: "enclosures"
-image: "/images/services/pergolas.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

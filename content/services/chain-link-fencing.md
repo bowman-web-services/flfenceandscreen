@@ -4,7 +4,6 @@ description: "Professional chain link fence installation for Port Orange & Dayto
 slug: "chain-link-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/chain-link-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

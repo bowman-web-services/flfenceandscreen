@@ -4,7 +4,6 @@ description: "Custom patio upgrades for Daytona Beach & Port Orange. Screens, co
 slug: "patio-upgrades"
 type: "services"
 category: "screens"
-image: "/images/services/patio-upgrades.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

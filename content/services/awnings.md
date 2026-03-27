@@ -4,7 +4,6 @@ description: "Custom awnings & shade systems for Port Orange & Daytona Beach. Re
 slug: "awnings"
 type: "services"
 category: "screens"
-image: "/images/services/awnings.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

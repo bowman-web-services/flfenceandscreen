@@ -4,7 +4,6 @@ description: "Motorized screen systems for Daytona Beach & Port Orange homes. Au
 slug: "motorized-screens"
 type: "services"
 category: "screens"
-image: "/images/services/motorized-screens.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

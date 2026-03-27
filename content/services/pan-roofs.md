@@ -4,7 +4,6 @@ description: "Professional pan roof installation for Port Orange & Daytona Beach
 slug: "pan-roofs"
 type: "services"
 category: "enclosures"
-image: "/images/services/pan-roofs.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

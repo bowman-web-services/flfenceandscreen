@@ -4,7 +4,6 @@ description: "Horizontal & lattice top fences for Port Orange & Daytona Beach. M
 slug: "horizontal-lattice-top"
 type: "services"
 category: "fencing"
-image: "/images/services/horizontal-lattice-top.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

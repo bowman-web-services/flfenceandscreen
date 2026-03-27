@@ -4,7 +4,6 @@ description: "Expert rescreening for existing screen enclosures in Port Orange &
 slug: "rescreening"
 type: "services"
 category: "screens"
-image: "/images/services/rescreening.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

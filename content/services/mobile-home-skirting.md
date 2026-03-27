@@ -4,7 +4,6 @@ description: "Professional mobile home skirting installation & repair in Daytona
 slug: "mobile-home-skirting"
 type: "services"
 category: "screens"
-image: "/images/services/mobile-home-skirting.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

@@ -4,7 +4,6 @@ description: "Custom screen doors for homes in Port Orange & Daytona Beach. Dura
 slug: "screen-doors"
 type: "services"
 category: "screens"
-image: "/images/services/screen-doors.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

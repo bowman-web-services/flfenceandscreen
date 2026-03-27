@@ -4,7 +4,6 @@ description: "Custom patio covers for Daytona Beach & Port Orange. Metal panels,
 slug: "pan-covers"
 type: "services"
 category: "enclosures"
-image: "/images/services/pan-covers.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

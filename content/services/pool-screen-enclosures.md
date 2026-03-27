@@ -4,7 +4,6 @@ description: "Professional pool screen enclosures for Port Orange & Daytona Beac
 slug: "pool-screen-enclosures"
 type: "services"
 category: "enclosures"
-image: "/images/services/pool-screen-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

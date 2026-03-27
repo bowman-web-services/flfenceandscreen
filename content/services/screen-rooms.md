@@ -4,7 +4,6 @@ description: "Custom screen rooms for Port Orange & Daytona Beach. Bug-free bonu
 slug: "screen-rooms"
 type: "services"
 category: "enclosures"
-image: "/images/services/screen-rooms.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

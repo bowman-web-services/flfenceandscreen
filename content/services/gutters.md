@@ -4,7 +4,6 @@ description: "Professional gutter installation & repair for Daytona Beach & Port
 slug: "gutters"
 type: "services"
 category: "screens"
-image: "/images/services/gutters.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

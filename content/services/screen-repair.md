@@ -4,7 +4,6 @@ description: "Professional screen repair for homes in Daytona Beach & Port Orang
 slug: "screen-repair"
 type: "services"
 category: "screens"
-image: "/images/services/screen-repair.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

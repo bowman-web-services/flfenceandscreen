@@ -4,7 +4,6 @@ description: "Professional soffit & fascia services for Port Orange & Daytona Be
 slug: "soffit-fascia"
 type: "services"
 category: "screens"
-image: "/images/services/soffit-fascia.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

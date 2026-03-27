@@ -4,7 +4,6 @@ description: "Board on board and stockade fences for Daytona Beach & Port Orange
 slug: "board-on-board-stockade"
 type: "services"
 category: "fencing"
-image: "/services/board-on-board-stockade.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

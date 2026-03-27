@@ -4,7 +4,6 @@ description: "Custom carports for Daytona Beach & Port Orange. Metal & aluminum 
 slug: "carports"
 type: "services"
 category: "enclosures"
-image: "/images/services/carports.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

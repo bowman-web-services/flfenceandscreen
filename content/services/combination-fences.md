@@ -4,7 +4,6 @@ description: "Custom combination fence designs for Daytona Beach & Port Orange. 
 slug: "combination-fences"
 type: "services"
 category: "fencing"
-image: "/images/services/combination-fences.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

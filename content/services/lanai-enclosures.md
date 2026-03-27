@@ -4,7 +4,6 @@ description: "Custom lanai enclosures for Port Orange & Daytona Beach. Upscale o
 slug: "lanai-enclosures"
 type: "services"
 category: "enclosures"
-image: "/images/services/lanai-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

@@ -4,7 +4,6 @@ description: "Florida-compliant pool fencing for Port Orange & Daytona Beach. AS
 slug: "pool-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/pool-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

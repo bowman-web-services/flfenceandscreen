@@ -4,7 +4,6 @@ description: "Professional concrete slab installation for Port Orange & Daytona 
 slug: "concrete-slabs"
 type: "services"
 category: "exterior"
-image: "/images/services/concrete-slabs.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

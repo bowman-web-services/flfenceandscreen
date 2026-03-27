@@ -4,7 +4,6 @@ description: "Custom glass enclosures for Daytona Beach & Port Orange. Durable, 
 slug: "glass-enclosures"
 type: "services"
 category: "enclosures"
-image: "/images/services/glass-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

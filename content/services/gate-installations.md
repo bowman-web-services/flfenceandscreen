@@ -4,7 +4,6 @@ description: "Custom gate installation for Port Orange & Daytona Beach. Driveway
 slug: "gate-installations"
 type: "services"
 category: "exterior"
-image: "/images/services/gate-installations.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

@@ -4,7 +4,6 @@ description: "Custom patio enclosures for Daytona Beach & Port Orange. Screens, 
 slug: "patio-enclosures"
 type: "services"
 category: "enclosures"
-image: "/images/services/patio-enclosures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

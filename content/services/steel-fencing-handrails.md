@@ -4,7 +4,6 @@ description: "Custom steel fencing & handrails for Port Orange & Daytona Beach. 
 slug: "steel-fencing-handrails"
 type: "services"
 category: "fencing"
-image: "/images/services/steel-fencing-handrails.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

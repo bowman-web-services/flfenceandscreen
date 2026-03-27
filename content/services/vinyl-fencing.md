@@ -4,7 +4,6 @@ description: "Professional vinyl fence installation for Daytona Beach & Port Ora
 slug: "vinyl-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/vinyl-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

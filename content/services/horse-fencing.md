@@ -4,7 +4,6 @@ description: "Professional horse fencing for Daytona Beach & Port Orange. Safe, 
 slug: "horse-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/horse-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

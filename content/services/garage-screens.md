@@ -4,7 +4,6 @@ description: "Custom garage screens for Daytona Beach & Port Orange. Keep bugs o
 slug: "garage-screens"
 type: "services"
 category: "screens"
-image: "/images/services/garage-screens.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

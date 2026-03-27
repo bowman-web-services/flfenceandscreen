@@ -4,7 +4,6 @@ description: "Custom aluminum structures for Port Orange & Daytona Beach. Durabl
 slug: "aluminum-structures"
 type: "services"
 category: "enclosures"
-image: "/images/services/aluminum-structures.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:

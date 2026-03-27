@@ -4,7 +4,6 @@ description: "Custom wood fence installation for Port Orange & Daytona Beach. Ce
 slug: "wood-fencing"
 type: "services"
 category: "fencing"
-image: "/images/services/wood-fencing.jpg"
 phone: "(386) 286-3262"
 draft: false
 related_services:
