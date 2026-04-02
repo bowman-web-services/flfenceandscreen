@@ -774,7 +774,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
 .service-title {
@@ -808,6 +809,14 @@ a:hover {
 .service-body {
   max-width: 800px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.service-body p,
+.service-body ul,
+.service-body ol,
+.service-body blockquote {
+  text-align: left;
 }
 
 .service-sidebar {
@@ -986,6 +995,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-xs);
+  justify-content: center;
 }
 
 .breadcrumb-list li {
@@ -1026,6 +1036,15 @@ a:hover {
 .article-body {
   max-width: 800px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.article-body p,
+.article-body ul,
+.article-body ol,
+.article-body blockquote,
+.article-body form {
+  text-align: left;
 }
 
 .article-body img {
@@ -1185,15 +1204,17 @@ a:hover {
   border-top: 1px solid var(--color-gray-700);
   padding-top: var(--spacing-lg);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--spacing-lg);
+  text-align: center;
 }
 
 .footer-credit {
   flex: 1;
   min-width: 250px;
+  text-align: center;
 }
 
 .footer-credit p {
@@ -1208,7 +1229,7 @@ a:hover {
 
 .footer-legal {
   flex: 1;
-  text-align: right;
+  text-align: center;
   min-width: 200px;
 }
 
@@ -1216,7 +1237,7 @@ a:hover {
   list-style: none;
   display: flex;
   gap: var(--spacing-lg);
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -1451,6 +1472,34 @@ button, a {
   height: 50px;
   width: auto;
   background: transparent;
+}
+
+/* ===== Footer Social Links ===== */
+.footer-social-heading {
+  margin-top: var(--spacing-lg);
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.footer-social a {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.footer-social a:hover {
+  background-color: var(--color-accent-orange);
+  color: var(--color-white);
 }
 
 @media (max-width: 768px) {

@@ -31,7 +31,7 @@
         <p><strong>Hours:</strong><br>{{ .Site.Params.hours }}</p>
       </div>
 
-      <!-- Legal & More -->
+      <!-- Service Area & Social -->
       <div class="footer-column">
         <h4>Service Area</h4>
         <p class="footer-text">Serving {{ .Site.Params.service_area }}:</p>
@@ -45,7 +45,26 @@
           <li>Palm Coast</li>
           <li>Edgewater</li>
           <li>Holly Hill</li>
+          <li>South Daytona</li>
+          <li>DeBary</li>
+          <li>Orange City</li>
+          <li>Ponce Inlet</li>
+          <li>Pierson</li>
+          <li>DeLeon Springs</li>
+          <li>Lake Helen</li>
+          <li>Osteen</li>
         </ul>
+
+        {{ if or .Site.Params.facebook .Site.Params.youtube .Site.Params.instagram .Site.Params.twitter .Site.Params.linkedin }}
+        <h4 class="footer-social-heading">Follow Us</h4>
+        <div class="footer-social">
+          {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>{{ end }}
+          {{ with .Site.Params.youtube }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>{{ end }}
+          {{ with .Site.Params.instagram }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>{{ end }}
+          {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>{{ end }}
+          {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>{{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
 

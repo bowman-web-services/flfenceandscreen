@@ -1,0 +1,18 @@
+{
+  "property": "flfenceandscreen",
+  "domain": "flfenceandscreen.com",
+  "type": "hugo",
+  "theme": "ffs",
+  "owner": "bowman-web-services",
+  "repo": "bowman-web-services/flfenceandscreen",
+  "netlify_site": "flfenceandscreen.netlify.app",
+  "deploy_method": "github-auto",
+  "build_command": "hugo --minify",
+  "publish_dir": "public",
+  "hugo_version": "0.147.0",
+  "content_dir": "content",
+  "static_dir": "static",
+  "created": "2026-03-30",
+  "updated": "2026-04-02",
+  "notes": "Client site — FL Fence & Screen LLC. DNS still on SiteGround, migration pending before May 5."
+}

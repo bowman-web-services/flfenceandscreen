@@ -19,8 +19,15 @@ hours = "Mon-Fri 8:00 AM - 5:00 PM"
 experience = "50+ years combined"
 service_area = "Volusia & Flagler Counties"
 google_analytics = "G-XXXXXXXXXX"
-google_tag_manager = "GTM-XXXXXXX"
+google_tag_manager = "GTM-TVC5TVF8"
 description = "FL Fence & Screen provides professional fence installation, screen enclosures, and outdoor structures in Volusia & Flagler Counties, FL. Licensed & insured with 50+ years combined experience."
+
+# Social Media
+facebook = "https://www.facebook.com/profile.php?id=61577014845887"
+youtube = ""
+twitter = ""
+instagram = ""
+linkedin = ""
 
 [sitemap]
 changefreq = "weekly"
