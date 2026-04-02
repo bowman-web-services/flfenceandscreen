@@ -1195,9 +1195,16 @@ a:hover {
   color: var(--color-accent-orange);
 }
 
+.footer-areas {
+  columns: 2;
+  column-gap: var(--spacing-lg);
+}
+
 .footer-areas li {
-  display: inline;
-  margin-right: var(--spacing-md);
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  margin-right: 0;
+  break-inside: avoid;
 }
 
 .footer-bottom {
