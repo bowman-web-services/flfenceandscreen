@@ -811,7 +811,7 @@ a:hover {
 .service-body ul,
 .service-body ol,
 .service-body blockquote {
-  text-align: left;
+  text-align: center;
 }
 
 .service-sidebar {
@@ -1039,7 +1039,7 @@ a:hover {
 .article-body ol,
 .article-body blockquote,
 .article-body form {
-  text-align: left;
+  text-align: center;
 }
 
 .article-body img {
@@ -1544,7 +1544,7 @@ button, a {
 .article-body p, .article-body ul, .article-body ol, .article-body blockquote,
 .article-body form, .contact-form, .contact-form label,
 .contact-form input, .contact-form select, .contact-form textarea {
-  text-align: left !important;
+  text-align: center !important;
 }
 .footer-links, .area-column ul, .footer-legal ul {
   list-style-position: inside !important;
@@ -1604,7 +1604,7 @@ button, a {
 .mega-col a {
   display: block; padding: 0.3rem 0.5rem; color: #374151;
   font-size: 0.85rem; font-weight: 500; text-decoration: none;
-  border-radius: 4px; transition: all 0.15s ease; text-align: left !important;
+  border-radius: 4px; transition: all 0.15s ease; text-align: center !important;
 }
 .mega-col a:hover { background-color: #f0fdf4; color: #166534; padding-left: 0.75rem; }
 .mega-footer {
@@ -1676,4 +1676,22 @@ button, a {
   list-style-position: inside !important;
   padding-left: 0 !important;
 }
+
+
+/* === BWS TOTAL CENTER FINAL: EVERYTHING === */
+.service-body p, .service-body ul, .service-body ol, .service-body blockquote,
+.article-body p, .article-body ul, .article-body ol, .article-body blockquote,
+.contact-form label {
+  text-align: center !important;
+}
+.service-body ul, .service-body ol,
+.article-body ul, .article-body ol {
+  list-style-position: inside !important;
+  padding-left: 0 !important;
+}
+.footer-column, .footer-column p, .footer-column a,
+.footer-column h3, .footer-column h4, .footer-column ul, .footer-column li {
+  text-align: center !important;
+}
+.footer-links { padding-left: 0 !important; }
 
