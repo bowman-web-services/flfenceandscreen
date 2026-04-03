@@ -1,103 +1,3 @@
-/* === BWS NUCLEAR CENTERING STANDARD === */
-/* Everything centers unless explicitly overridden for readability */
-.site-footer,
-.site-footer *,
-.content-container,
-.service-single,
-.service-content,
-.service-body,
-.service-body h1,
-.service-body h2,
-.service-body h3,
-.service-body h4,
-.service-header,
-.service-header .content-container,
-.article-body,
-.article-body h1,
-.article-body h2,
-.article-body h3,
-.page-content,
-.page-content h1,
-.testimonials,
-.testimonial-card,
-.testimonial-author,
-.why-choose-us,
-.reason-card,
-.service-area,
-.area-list,
-.area-column,
-.area-column ul,
-.area-column li,
-.cta-banner,
-.cta-container,
-.cta-content,
-.cta-actions,
-.breadcrumbs,
-.breadcrumb-list,
-.footer-bottom,
-.footer-credit,
-.footer-legal,
-.footer-legal ul,
-.footer-service-area,
-.footer-area-label,
-.footer-area-cities,
-.service-categories,
-.service-category-card,
-.service-process,
-.process-step,
-.job-photos,
-.photos-grid,
-.hero,
-.hero-content,
-.services-hero,
-.services-list,
-.category-heading,
-.service-links-grid,
-.service-link-card {
-  text-align: center !important;
-}
-
-/* Body text stays left for readability */
-.service-body p,
-.service-body ul,
-.service-body ol,
-.service-body blockquote,
-.article-body p,
-.article-body ul,
-.article-body ol,
-.article-body blockquote,
-.article-body form,
-.contact-form,
-.contact-form label,
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
-  text-align: left !important;
-}
-
-/* Lists center with inside markers */
-.footer-links,
-.area-column ul,
-.footer-legal ul {
-  list-style-position: inside !important;
-  padding-left: 0 !important;
-}
-
-/* Flex containers center their children */
-.cta-container,
-.cta-actions,
-.testimonial-author,
-.footer-bottom,
-.breadcrumb-list,
-.footer-legal ul {
-  justify-content: center !important;
-}
-
-.service-header .content-container,
-.service-category-card {
-  align-items: center !important;
-}
-/* === END BWS NUCLEAR CENTERING === */
 /* ============================================
    FL Fence & Screen Theme - Complete Stylesheet
    Mobile-first responsive design
@@ -1302,32 +1202,6 @@ a:hover {
   break-inside: avoid;
 }
 
-
-/* Footer Service Area Band */
-.footer-service-area {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 2rem 0;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.footer-area-label {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.footer-area-cities {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.85rem;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
 .footer-bottom {
   border-top: 1px solid var(--color-gray-700);
   padding-top: var(--spacing-lg);
@@ -1340,7 +1214,8 @@ a:hover {
 }
 
 .footer-credit {
-  width: 100%;
+  flex: 1;
+  min-width: 250px;
   text-align: center;
 }
 
@@ -1355,8 +1230,9 @@ a:hover {
 }
 
 .footer-legal {
-  width: 100%;
+  flex: 1;
   text-align: center;
+  min-width: 200px;
 }
 
 .footer-legal ul {
@@ -1377,33 +1253,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  
-/* Footer Service Area Band */
-.footer-service-area {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 2rem 0;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.footer-area-label {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.footer-area-cities {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.85rem;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-.footer-bottom {
+  .footer-bottom {
     justify-content: center;
     text-align: center;
   }
