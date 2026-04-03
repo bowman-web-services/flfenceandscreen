@@ -1665,3 +1665,15 @@ button, a {
   color: #166534 !important;
 }
 
+
+/* === BWS TOTAL CENTER: everything including paragraphs === */
+.service-body p, .service-body ul, .service-body ol, .service-body blockquote,
+.article-body p, .article-body ul, .article-body ol, .article-body blockquote {
+  text-align: center !important;
+}
+.service-body ul, .service-body ol,
+.article-body ul, .article-body ol {
+  list-style-position: inside !important;
+  padding-left: 0 !important;
+}
+
