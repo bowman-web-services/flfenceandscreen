@@ -1643,3 +1643,25 @@ button, a {
   color: #166534 !important;
 }
 
+
+/* === HERO BACKGROUND IMAGE === */
+.hero {
+  background-image: linear-gradient(rgba(22, 101, 52, 0.85), rgba(22, 101, 52, 0.85)), url('/images/job-pool-enclosure.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* === FIX: View Services button visibility === */
+.hero .btn-secondary,
+.hero-cta .btn-secondary {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: transparent !important;
+}
+.hero .btn-secondary:hover,
+.hero-cta .btn-secondary:hover {
+  background-color: #ffffff !important;
+  color: #166534 !important;
+}
+
