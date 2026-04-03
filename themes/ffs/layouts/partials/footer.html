@@ -1,61 +1,74 @@
-<!-- SandosPromo Footer HTML -->
 <footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-content">
-            <!-- Company Information -->
-            <div class="footer-section company-info">
-                <h3>SandosPromo.com</h3>
-                <p>Your trusted source for exclusive vacation club promotions and luxury resort experiences. Discover amazing deals on premium all-inclusive resorts worldwide.</p>
-                
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="icon">📞</span>
-                        <div>
-                            <strong>Toll-Free: (855) 590-2228</strong><br>
-                            Call us now to check availability and book your dream vacation!
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">📧</span>
-                        <div>
-                            <a href="https://link.sandospromo.com/widget/form/ITXocl3k68fy2DTBlyCA" class="contact-link">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="footer-container">
+    <!-- Main 3-Column Footer -->
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-column">
+        <h3>{{ .Site.Params.business_name }}</h3>
+        <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
+        <p class="footer-text">{{ .Site.Params.business_name }} provides professional fence installation, screen enclosures, and outdoor structures with 50+ years combined experience.</p>
+        <p class="footer-badge">Licensed & Insured | {{ .Site.Params.experience }}</p>
 
-            <!-- Main Navigation Links -->
-            <div class="footer-section navigation">
-                <h4>Quick Navigation</h4>
-                <ul>
-                    <li><a href="https://sandospromo.com/">Home</a></li>
-                    <li><a href="https://sandospromo.com/by-travel-destination/">By Destination</a></li>
-                    <li><a href="https://sandospromo.com/all-resorts-blogroll/">All Resorts</a></li>
-                    <li><a href="https://link.sandospromo.com/widget/form/ITXocl3k68fy2DTBlyCA">Contact</a></li>
-                </ul>
-            </div>
+        {{ if or .Site.Params.facebook .Site.Params.youtube .Site.Params.instagram .Site.Params.twitter .Site.Params.linkedin }}
+        <div class="footer-social">
+          {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>{{ end }}
+          {{ with .Site.Params.youtube }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>{{ end }}
+          {{ with .Site.Params.instagram }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>{{ end }}
+          {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>{{ end }}
+          {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>{{ end }}
+        </div>
+        {{ end }}
+      </div>
 
-            <!-- Disclaimer -->
-            <div class="footer-section disclaimer">
-                <h4>Important Information</h4>
-                <div class="disclaimer-text">
-                    <p>Vacation Club Marketing Disclaimer:</p>
-                    <p>This website & advertising material is being used for the purpose of soliciting the sale of vacation club memberships. These promotions are subject to specific terms and conditions, which include, but are not limited to, age requirements (typically between 28 and 70 years old), income qualifications, and attendance at a resort sales presentation lasting approximately 90 to 120 minutes. Additional eligibility criteria may apply. Please contact us for full details before booking.</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Bottom Copyright & Legal -->
-        <div class="footer-bottom">
-            <div class="footer-legal">
-                <p>© 2025 SandosPromo – All Rights Reserved: <a href="https://bowmanwebservices.com/" style="color: #ffd700; text-decoration: none;">Vacation Club Marketing</a></p>
-                <div class="legal-links">
-                    <a href="https://sandospromo.com/privacy-policy-for-sandospromo/">Privacy Policy</a>
-                    <span style="color: #b8d4f0;">|</span>
-                    <a href="https://sandospromo.com/cookie-policy/">Cookie Policy</a>
-                </div>
-            </div>
-        </div>
+      <!-- Services -->
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="/services/screen-enclosures/">Screen Enclosures</a></li>
+          <li><a href="/services/pool-screen-enclosures/">Pool Enclosures</a></li>
+          <li><a href="/services/vinyl-fencing/">Vinyl Fencing</a></li>
+          <li><a href="/services/wood-fencing/">Wood Fencing</a></li>
+          <li><a href="/services/hurricane-shutters/">Hurricane Shutters</a></li>
+          <li><a href="/services/">All Services</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <p><strong>Phone:</strong> <a href="tel:{{ .Site.Params.phone_link }}">{{ .Site.Params.phone }}</a></p>
+        <p><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        <p><strong>Address:</strong><br>{{ .Site.Params.address }}</p>
+        <p><strong>Hours:</strong><br>{{ .Site.Params.hours }}</p>
+      </div>
     </div>
-</footer>
 
+    <!-- Service Area Band -->
+    <div class="footer-service-area">
+      <p class="footer-area-label">Proudly Serving Volusia &amp; Flagler Counties, Florida</p>
+      <p class="footer-area-cities">Daytona Beach &bull; Port Orange &bull; Ormond Beach &bull; New Smyrna Beach &bull; DeLand &bull; Deltona &bull; Palm Coast &bull; Edgewater &bull; Holly Hill &bull; South Daytona &bull; DeBary &bull; Orange City &bull; Ponce Inlet &bull; Pierson &bull; DeLeon Springs &bull; Lake Helen &bull; Osteen</p>
+    </div>
+
+    <!-- Bottom Credits -->
+    <div class="footer-bottom">
+      <div class="footer-credit">
+        <p>Website by <a href="https://bowmanwebservices.com" target="_blank">Bowman Web Services</a></p>
+        <p>&copy; {{ now.Year }} {{ .Site.Params.legal_name }}. All rights reserved.</p>
+      </div>
+      <div class="footer-legal">
+        <ul>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/terms-of-service/">Terms of Service</a></li>
+          <li><a href="/cookie-policy/">Cookie Policy</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Tag Manager noscript -->
+  {{ if ne .Site.Params.google_tag_manager "GTM-XXXXXXX" }}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.google_tag_manager }}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  {{ end }}
+</footer>
