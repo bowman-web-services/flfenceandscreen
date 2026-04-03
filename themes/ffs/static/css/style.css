@@ -453,7 +453,9 @@ a:hover {
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-top: 4px solid var(--color-primary-green);
   color: var(--color-dark);
 }
@@ -587,7 +589,8 @@ a:hover {
   background-color: var(--color-light-bg);
   padding: var(--spacing-lg);
   border-radius: var(--radius-lg);
-  border-left: 4px solid var(--color-accent-orange);
+  border-bottom: 4px solid var(--color-accent-orange);
+  text-align: center;
 }
 
 .testimonial-text {
@@ -599,6 +602,7 @@ a:hover {
 .testimonial-author {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--spacing-xs);
 }
 
@@ -665,19 +669,11 @@ a:hover {
 
 .area-column ul {
   list-style: none;
+  text-align: center;
 }
 
 .area-column li {
   padding: var(--spacing-xs) 0;
-  padding-left: var(--spacing-md);
-  position: relative;
-}
-
-.area-column li:before {
-  content: "▸";
-  position: absolute;
-  left: 0;
-  color: var(--color-primary-green);
 }
 
 /* CTA Banner */
@@ -691,14 +687,13 @@ a:hover {
   max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--spacing-xl);
-  flex-wrap: wrap;
+  text-align: center;
+  gap: var(--spacing-lg);
 }
 
 .cta-content {
-  flex: 1;
   min-width: 250px;
 }
 
@@ -868,7 +863,7 @@ a:hover {
   margin-bottom: var(--spacing-lg);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  border-left: 4px solid var(--color-primary-green);
+  border-bottom: 4px solid var(--color-primary-green);
 }
 
 .faq-question {
@@ -1352,7 +1347,7 @@ button, a {
 .service-link-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: var(--spacing-md) var(--spacing-lg);
   background-color: var(--color-white);
   border: 1px solid var(--color-gray-200);
@@ -1361,12 +1356,13 @@ button, a {
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s ease;
+  text-align: center;
+  gap: var(--spacing-sm);
 }
 
 .service-link-card:hover {
   border-color: var(--color-primary-green);
   background-color: #f0fdf4;
-  transform: translateX(4px);
   box-shadow: var(--shadow-sm);
   color: var(--color-primary-green);
 }
