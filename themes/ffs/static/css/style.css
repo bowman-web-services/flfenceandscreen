@@ -1629,3 +1629,17 @@ button, a {
 }
 .nav-dropdown { display: none !important; }
 
+
+/* === FIX: View Services button visibility === */
+.hero .btn-secondary,
+.hero-cta .btn-secondary {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: transparent !important;
+}
+.hero .btn-secondary:hover,
+.hero-cta .btn-secondary:hover {
+  background-color: #ffffff !important;
+  color: #166534 !important;
+}
+
